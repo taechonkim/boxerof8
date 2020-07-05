@@ -22,90 +22,38 @@
 # topic groups and topics on the main page.
 
 ---
-Name: Welcome
+Name: 복서일지
 Dir: welcome
 Topics:
-  - Name: 제품소개
-    File: index
-  - Name: 장/단점
-    File: pros-cons
-  - Name: 법적공지
-    File: legal-notice
-  - Name: 릴리즈노트
-    File: release-note
----
-Name: 구성요소
-Dir: component
-Topics:
-  - Name: HyperCloud Operator
-    File: hypercloud-operator
-  - Name: HyperCloud Console
-    File: hypercloud-console
-  - Name: Kubernetes
-    File: kubernetes
-  - Name: Compute
-    Dir: compute
-    Topics:
-      - Name: Docker
-        File: docker
-      - Name: CRI-O
-        File: cri-o
-  - Name: Storage
-    Dir: storage
-    Topics:
-      - Name: Rook Ceph
-        File: rook-ceph
-      - Name: NFS
-        File: nfs
-  - Name: Network
-    Dir: network
-    Topics:
-      - Name: Calico
-        File: calico
-  - Name: Plugin
-    Dir: plugin
-    Topics:
-      - Name: Prometheus
-        File: prometheus
-      - Name: Grafana
-        File: grafana
-      - Name: Tekton
-        File: tekton
-      - Name: Kubevirt
-        File: kubevirt
----
-Name: 인스톨 가이드
-Dir: installation_guide
-Topics:
-  - Name: 개요
-    File: index
----
-Name: 튜닝 가이드
-Dir: tuning_guide
-Topics:
-  - Name: 개요
-    File: index
----
-Name: 백업 및 복구
-Dir: backup_and_restore
-Topics:
-  - Name: 개요
-    File: index
----
-Name: 사용자가이드
-Dir: user_guide
-Topics:
-  - Name: 개요
-    File: index
-  - Name: 로그인
-    File: login
----
-Name: API Reference
-Dir: api_reference
-Topics:
-  - Name: Master API
-    File: master-api
-  - Name: Kubernetes API
-    File: kubernetes-api
-  - Name: Prometheus API
-    File: prometheus-api
+  - Name: 프롤로그
+    File: prologue
+  - Name: 1. 조피노와의 만남
+    File: boxer_essay-1
+  - Name: 2. 프로의 실력
+    File: boxer_essay-2
+  - Name: 3. 8시의 복서
+    File: boxer_essay-3
+  - Name: 4. 이상형을 만나다
+    File: boxer_essay-4
+  - Name: 5. 훅을 배우다
+    File: boxer_essay-5
+  - Name: 6. 익숙함에 속아 소중함을 잃지 말자
+    File: boxer_essay-6
+  - Name: 7. 이머전시
+    File: boxer_essay-7
+  - Name: 8. 최고의 공격은 방어
+    File: boxer_essay-8
+  - Name: 9. 복서스 하이
+    File: boxer_essay-9
+  - Name: 10. 스승과 제자
+    File: boxer_essay-10
+  - Name: 11. 턴을 배우다
+    File: boxer_essay-11
+  - Name: 12. 복서의 좌절
+    File: boxer_essay-12
+  - Name: 13. 좌절을 딛고
+    File: boxer_essay-13
+  - Name: 14. 바디 잽
+    File: boxer_essay-14
+  - Name: 15. 탈진
+    File: boxer_essay-15
