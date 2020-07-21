@@ -9,13 +9,13 @@ boxerof8: # 빌드 시 _preview에 떨어지는 디렉토리명. 영문, 숫자,
     master:
       name: "boxerof8"
       dir: "ko"
-# master-test:
-#   name: HyperCloud Console
-#   author: HyperCloud Documentation Project <hypercloud-docs@tmax.com>
-#   site: HyperCloud-Docs
-#   site_name: Documentation
-#   site_url: https://www.tmaxcloud.com/
-#   branches:
-#     master:
-#       name: 'test'
-#       dir: 'test'
+#
+# Ascii binder 빌드 스크립트
+#
+# rm -rf boxerof8
+# git clone https://github.com/taechonkim/boxerof8.git
+# cd boxerof8
+# git branch -r | grep -v '\->' | while read remote; do git branch --track "${remote#origin/}" "$remote"; done
+# git fetch --all
+# git pull --all
+# git branch -r | grep -v '\->' | while read remote; do git checkout "${remote#origin/}"; asciibinder build; done
